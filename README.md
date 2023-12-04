@@ -1,5 +1,10 @@
 # Data-Eras-of-MLB
-An examination of the impact of the history of automated data collection platforms on MLB in-game data collection
+An examination of the impact of the history of automated data collection platforms on 
+MLB in-game data collection. 
+
+In the analysis that follows the aim is to observe first hand, in the best pitching datasets publicly
+available today, the impact the history and evolution of MLB's in-game sensing platforms have 
+had on the evolution of MLB data categories available for open-source analysis projects. 
 
 ![](img/pic_hawkeye_cameras.png)
 
@@ -46,6 +51,18 @@ enabling and accelerting the sport's growing emphasis on data-driven decision-ma
 ![](img/viz_launch_angle_nulls.png)
 
 ![](img/viz_spin_axis_nulls.png)
+
+#### Discussion
+
+With the launch of the Statcast system in 2015, precision data on batted balls became 
+available. This is reflected in the Kershaw pitched-ball dataset studied in this notebook. 
+The percentage of recorded pitch_type data records remains roughly constant from 2008 through 
+2023 (the current span of Clayton Kershaw's career), while the launch_angle data only starts 
+being recorded in the 2015 season, after Statcast's introudciton in MLB stadiums. 
+spin_axis data takes an additional year, to 2016, to begin being aggregated in MLB's data archive.
+This preliminary investigation was undertaken to better understand the aggregated Kershaw pitch
+dataset in greater detail in preparation for analysis projects to follow, and also to see how the 
+history of MLB in-game sensing platforms is relfected in today's MLB datasets. 
 
 
 ### References
