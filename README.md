@@ -4,7 +4,7 @@ MLB in-game data collection.
 
 In the analysis that follows the aim is to observe first hand, in the best pitching datasets publicly
 available today, the impact the history and evolution of MLB's in-game sensing platforms have 
-had on the evolution of MLB data categories available for open-source analysis projects. 
+had on the growth of MLB data categories available for open-source analysis projects. 
 
 ![](img/pic_hawkeye_cameras.png)
 
