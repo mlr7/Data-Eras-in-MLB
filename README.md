@@ -1,8 +1,9 @@
 # Data-Eras-of-MLB
-An examination of the impact of the history of automated in-game data collection platforms on MLB in-game data collection
+An examination of the impact of the history of automated data collection platforms on MLB in-game data collection
 
 ![](img/pic_hawkeye_cameras.png)
 
+![](img/viz_3viz.png)
 
 ### Automated Data Collection Systems in Major League Baseball (MLB)
 
@@ -20,6 +21,9 @@ batted ball statistics, and more. This system collected data on an enhnaced feat
 from in-game play, including exit velocity, launch angle, and sprint speed, offering a 
 comprehensive picture of both pitching and hitting, as well as fielding.
 
+![](img/pic_composite_hawkeye.png)
+The Hawk-Eye platform, as depicted in [4]. 
+
 #### Hawk-Eye
 Hawk-Eye was adopted by MLB starting in the 2020 season, representing a new technological leap in MLB sensing platforms.
 Replacing Statcast's radar system, Hawk-Eye uses a series of high-resolution optical cameras 
@@ -27,6 +31,7 @@ around the stadium. It's more accurate in tracking the baseball and player movem
 Hawk-Eye provides improved accuracy and a wider array of data points. It can capture the spin 
 rate of pitches, the stance and movements of players, and more intricate details of every play.
 Evolutionary Significance
+
  
 #### MLB Sensor Platform Evolution
 
@@ -36,14 +41,20 @@ evaluated and trained, how games are analyzed, and how fans understand the sport
 introduction marked a pivotal moment in the evolution of baseball analytics, 
 enabling and accelerting the sport's growing emphasis on data-driven decision-making and analytics.
 
+![](img/viz_pitch_type_nulls.png)
+
+![](img/viz_launch_angle_nulls.png)
+
+![](img/viz_spin_axis_nulls.png)
+
 
 ### References
 
-https://baseballsavant.mlb.com/csv-docs
+[1] https://baseballsavant.mlb.com/csv-docs
 
-https://baseballsavant.mlb.com/leaderboard/spin-direction-pitches
+[2] https://baseballsavant.mlb.com/leaderboard/spin-direction-pitches
 
-McElroy, Luke. "Computer Vision in Baseball: The Evolution of Statcast." (2022)
+[3] McElroy, Luke. "Computer Vision in Baseball: The Evolution of Statcast." (2022)
 
-https://technology.mlblogs.com/introducing-statcast-2020-hawk-eye-and-google-cloud-a5f5c20321b8 (2020)
+[4] https://technology.mlblogs.com/introducing-statcast-2020-hawk-eye-and-google-cloud-a5f5c20321b8 (2020)
 
